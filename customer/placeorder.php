@@ -55,7 +55,7 @@ while($dbrow=mysqli_fetch_assoc($sql_result)){
             <a href='deletecart.php?pid=$dbrow[pid]'>
                 <button class='btn btn-danger'> Remove from cart </button>
             </a>
-            <a href='placeorder.php?pid=$dbrow[pid]'>
+            <a href='splaced.php?pid=$dbrow[pid]'>
                 <button class='btn btn-success'> Place Order</button>
             </a>
         </div>
